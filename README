@@ -7,3 +7,6 @@ Usage:
 		php render.php
 	Single file:
 		php render.php test.php
+
+Initial setup:
+	Configure directories for input/output on lines 2 and 3 of render.php
