@@ -16,7 +16,7 @@ function renderFileName($fN) {
 	global $input;
 	$f = pathinfo($input . $fN);
 	out($f['basename'], "Rendered", "Rendering", "\r");
-	renderFile($args[1]);
+	renderFile($f['basename']);
 	out($f['basename'] . ' as ' . $f['filename'] . '.html', "Rendered");
 }
 
