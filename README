@@ -1,3 +1,9 @@
 This script renders a folder of .php files to another folder of .html files.
 Useful for those who want the ability of PHP but only need to produce static output. Makes development easier and publishing faster. 
 (We run each file through the PHP parser and output its file as static HTML)
+
+Usage:
+	Whole directory:
+		php render.php
+	Single file:
+		php render.php test.php
